@@ -84,7 +84,7 @@ The UKBB phenotype dashboard was designed as an accessible interface to the UKBB
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Note: This repository is not an R package.  To get started using your own local phenotype dashboard, you can download the codes here and make some minor modifications to point to the relevant local input files to run, and then you can explore the dashboard functions.
+Note: This repository is not an R package.  To get started using your own local phenotype dashboard, you can download the codes from this repository and make some minor modifications to point to the relevant local input files to run, and then you can explore the dashboard functions.
 
 ### Prerequisites
 
@@ -144,4 +144,4 @@ Project Link: [https://github.com/mryals/ukb_phenotype_dashboard](https://github
 [license-shield]: https://img.shields.io/github/license/mryals/ukb_phenotype_dashboard.svg?style=for-the-badge
 [license-url]: https://github.com/mryals/ukb_phenotype_dashboard/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/company/pharmalexglobal
