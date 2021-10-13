@@ -93,13 +93,24 @@ You will be required to have access to the raw UKBB data files.  You will also b
 ### Installation
 
 1. Follow the raw UKBB md5sum check, decryption, and data unpacking steps using `ukbmd5`,`ukbunpack`, and `ukbconv` available [here](https://biobank.ndph.ox.ac.uk/showcase/download.cgi)
-2. Convert the file to long-format using `ukb_to_long.R`
+
+2. Convert your data file to long-format using `ukb_to_long.R`
+
 3. Set up an SQLite database in SQLite3 using `ukb.sql`
    ```sh
    sqlite3 database_name.db < ukb.sql
    ```
-4. Set up a Shiny dashboard folder to hold the codes `data_prep.R`, `global.R`, `ui.R`, and `server.R` codes along with a `www` subfolder structure to hold your downloaded files and your database file.
-5. In RStudio (recommended), run the dashboard by clicking `Run App` in the top corner of the Source panel.  Or run directly by using `shiny::runApp`
+   
+4. Download and decompress the primary care codings.  
+   ```sh
+   wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/primarycare_codings.zip
+   unzip primarycare_codings.zip
+   ```
+   Run the code `gp_data_prep.R` after downloading.
+   
+5. Set up a Shiny dashboard folder to hold the codes `data_prep.R`, `global.R`, `ui.R`, and `server.R` codes along with a `www` subfolder structure to hold your downloaded files and your database file.
+
+6. Using RStudio (recommended), run the dashboard by clicking `Run App` in the top corner of the Source panel.  Or run the dashboard app directly by using `shiny::runApp` on  your dashboard folder path.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
