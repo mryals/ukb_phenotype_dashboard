@@ -148,7 +148,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact and acknowledgements
 
-Contributors:
+**Contributors:**  
+
 UKBB phenotype formatting code, Shiny dashboard code author: Liping Hou  
 Abstract, poster, and github repo author: Matthew Ryals 
 
