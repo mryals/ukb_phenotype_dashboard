@@ -108,7 +108,13 @@ You will be required to have access to the raw UKBB data files.  You will also b
    ```
    Run the code `gp_data_prep.R` after downloading.
    
-5. Set up a Shiny dashboard folder to hold the codes `data_prep.R`, `global.R`, `ui.R`, and `server.R` codes along with a `www` subfolder structure to hold your downloaded files and your database file.
+   Next, download additional files from the showcase for the UKBB categories and codings.
+   ```sh
+   wget -nd biobank.ctsu.ox.ac.uk/~bbdatan/Data_Dictionary_Showcase.tsv
+   wget -nd biobank.ctsu.ox.ac.uk/~bbdatan/Codings.tsv
+   ```
+   
+5. Set up a Shiny dashboard folder to hold the codes `gp_data_prep.R`, `global.R`, `ui.R`, and `server.R` codes along with a `www` subfolder structure to hold your downloaded files and your database file.
 
 6. Using RStudio (recommended), run the dashboard by clicking `Run App` in the top corner of the Source panel.  Or run the dashboard app directly by using `shiny::runApp` on  your dashboard folder path.
 
@@ -142,8 +148,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact and acknowledgements
 
-UKBB phenotype formatting code, Shiny dashboard code author: Liping Hou - [https://www.pharmalex.com/contact-us](https://www.pharmalex.com/contact-us)
-Abstract, poster, and github repo author: Matthew Ryals - [https://www.pharmalex.com/contact-us](https://www.pharmalex.com/contact-us)
+Contributors:
+UKBB phenotype formatting code, Shiny dashboard code author: Liping Hou  
+Abstract, poster, and github repo author: Matthew Ryals 
+
+Contact: [https://www.pharmalex.com/contact-us](https://www.pharmalex.com/contact-us)
 
 Project Link: [https://github.com/mryals/ukb_phenotype_dashboard](https://github.com/mryals/ukb_phenotype_dashboard)
 
